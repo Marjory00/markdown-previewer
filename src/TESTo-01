@@ -1,0 +1,64 @@
+import React from "https://cdn.skypack.dev/react@17.0.1";
+import ReactDOM from "https://cdn.skypack.dev/react-dom@17.0.1";
+import MDEditor from "https://cdn.skypack.dev/@uiw/react-md-editor@3.18.1";
+
+import { useState } from "https://cdn.skypack.dev/react@17.0.1";
+
+
+// ======= TEST 100 ========= //
+
+
+const markdown = <h1>Hello React!</h1>
+
+ function App() {
+    constructor(props) {
+        super(propos);
+        this.state = {
+            markdown: "",
+
+        };
+    }
+
+    updateMarkdown(markdown) {
+        this.setState({ markdown });
+    }
+  
+  return (
+    <div className="App">
+      <header className="App-header">
+   <h1>MARKDOWN PREVIEWER</h1>
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+    
+    //========= EDITOR TEST 100 =====//
+    <editor className="editor">
+    <div className="row mt-4">
+  <div className="col-md-6">
+    <h2>Lorem Ipsum</h2>
+  </div>
+      </editor>
+
+  <div className="col-md-6">
+    <h2>Lorem Ipsum</h2>
+  </div>
+</div>;
+      </div>
+    //========= END EDITOR TEST 100 =====//
+    
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root'));
+root.render(App);
+
